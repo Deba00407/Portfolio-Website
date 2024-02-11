@@ -1,0 +1,156 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-position: center;
+  background-size: cover;
+}
+
+#header span {
+  color: yellow;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 100px;
+}
+
+.handles {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  height: 360px;
+}
+
+#Bg {
+  height: 100%;
+  background-image: url(valentin-beauvais-kDaxao_v_5o-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+div.box {
+  background-color: transparent;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(220, 220, 220, 0.2);
+  outline: 2px solid rgba(220, 220, 220, 0.4);
+  height: 300px;
+  width: 300px;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  align-self: center;
+  margin: auto;
+}
+
+#img1 {
+  background-image: url(icons8-instagram-logo-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img2 {
+  background-image: url(icons8-twitterx-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img3 {
+  background-image: url(icons8-linkedin-logo-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#img4 {
+  background-image: url(icons8-gmail-48.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.button {
+  background-color: orange;
+  height: 20px;
+  width: 70px;
+  padding: 20px 50px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20vh;
+  position: relative;
+}
+
+#b1 {
+  width: 90px;
+}
+#b2 {
+  width: 50px;
+}
+
+.button a,
+.button_ a {
+  align-content: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(119, 119, 228);
+}
+
+.button_:hover {
+  background-color: rgb(119, 119, 228);
+  transform: scale(1.1);
+}
+
+.box span {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 19px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#relink {
+  display: flex;
+  position: relative;
+  height: 100px;
+}
+
+#relink a {
+  align-content: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.button_ {
+  background-color: orange;
+  height: 20px;
+  width: 120px;
+  padding: 20px 50px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20vh;
+  position: relative;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}

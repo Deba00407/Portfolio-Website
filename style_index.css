@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Single+Day&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+div.section {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#bg {
+  background-image: url(pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: relative;
+}
+
+#image {
+  background-image: url(WhatsApp\ Image\ 2024-02-10\ at\ 10.11.22_76321dbe.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  border: 5px 5px white;
+  border-radius: 20vh;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 999;
+}
+
+#log {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  margin: auto;
+  border-radius: 20px;
+  top: 10%;
+  padding: 20px;
+}
+
+#overlay2 {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-shadow: 10px 10px rgba(225, 225, 225, 0.2);
+}
+
+span#typedtext {
+  display: inline;
+  color: white;
+  position: relative;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+  font-family: "Caveat", cursive;
+  font-family: "Single Day", cursive;
+  font-size: 18px;
+}
+
+ul {
+  position: relative;
+  top: 30%;
+}
+
+a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: orange;
+}
+
+.bg2 {
+  background-image: url(omid-armin-OaQVCtIJHF0-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 20vh;
+  height: max-content;
+  width: 700px;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  box-shadow: 10px 10px rgba(225, 225, 225, 0.1);
+}
+
+span {
+  font-size: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#prj {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  top: 0px;
+}
+
+div.box {
+  top: 100px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: fit-content;
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.box > span {
+  color: white;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  font-family: "Single Day", cursive;
+}
+
+div.button {
+  height: 30px;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button a {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+}
+
+.projects-img:hover,
+#log:hover,
+#overlay2:hover {
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+.button:hover a {
+  color: white;
+}
